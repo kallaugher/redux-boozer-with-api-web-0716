@@ -4,6 +4,7 @@ import {connect} from 'react-redux';
 function CocktailsShow (props) {
   const cocktail = props.cocktail;
 
+  // this is cool
   if (!cocktail) {
     return <div>'Loading...'</div>;
   }
